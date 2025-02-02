@@ -123,6 +123,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
   }
   
   a { text-decoration: none; }
@@ -1173,6 +1174,7 @@
     max-height: 200px;
     resize: vertical;
     margin-bottom: 25px;
+    /* margin-top: 20px; */
   }
   
   textarea.form-input::-webkit-resizer { display: none; }
@@ -1441,7 +1443,9 @@
       line-clamp: 2;
       -webkit-line-clamp: 2;
     }
-  
+    .btn-secondary {
+      color: blue;
+    }
     /* testimonials modal */
   
     .modal-container { padding: 20px; }
@@ -1476,14 +1480,18 @@
     }
 
     .cp-title{
-      color: yellow;
+      color: rgb(0, 255, 213);
     }
     .cp-highlights{
       color: white;
     }
 
     .cp-btn-link{
-      color: white;
+      font: 400;
+      color: blue;
+    }
+    .cp-profile-links{
+      margin-top: 12px;
     }
     /* clients */
   
